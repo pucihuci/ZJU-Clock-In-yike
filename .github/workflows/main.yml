@@ -1,13 +1,17 @@
 name: ClockIn
 
 on:
+  workflow_dispatch:
+  schedule:
+    - cron: "49 7 * * *"
   push:
     branches: 
       - master
   watch:
     types: started
-  schedule:
-    - cron: 00 1,12 * * *
+
+  
+
 
 jobs:
   ClockIn:
