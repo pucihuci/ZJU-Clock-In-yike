@@ -4,10 +4,10 @@ on:
   push:
     branches: 
       - master
-  watch:
-    types: started
+#   watch:
+#     types: started
   schedule:
-    - cron: '05 1/12 * * *'
+    - cron: '30 1/12 * * *'
 
 jobs:
   ClockIn:
