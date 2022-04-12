@@ -3,7 +3,7 @@ name: ClockIn
 on:
   workflow_dispatch:
   schedule:
-    - cron: "50 7 * * *"
+    - cron: "00 */12 * * *"
   push:
     branches: 
       - master
