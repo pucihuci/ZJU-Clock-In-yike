@@ -3,8 +3,6 @@ on:
   schedule:
     - cron: "00 11/12 * * *"
   push:
-    branches: 
-      - master
   watch:
     types: started
 
