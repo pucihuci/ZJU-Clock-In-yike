@@ -1,7 +1,7 @@
 name: ClockIn
 on:
   schedule:
-    - cron: "00 10/12 * * *"
+    - cron: "00 11/12 * * *"
   push:
     branches: 
       - master
